@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUpController">
+   <children>
+      <Text layoutX="419.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WeShare Sign Up">
+         <font>
+            <Font name="Candara" size="69.0" />
+         </font>
+      </Text>
+      <Text layoutX="502.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="379.216796875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SignUpUsername" layoutX="502.0" layoutY="301.0" prefHeight="93.0" prefWidth="337.0" />
+      <Text layoutX="502.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="379.216796875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SignUpPassword" layoutX="502.0" layoutY="490.0" prefHeight="93.0" prefWidth="337.0" />
+      <Text layoutX="502.0" layoutY="658.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Security Question:" wrappingWidth="489.216796875">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="SignUpSecurityQuestions" layoutX="502.0" layoutY="681.0" prefHeight="39.0" prefWidth="495.0" promptText="Select Security Question" />
+      <TextField fx:id="SignUpSecurityAnswer" layoutX="502.0" layoutY="740.0" prefHeight="93.0" prefWidth="337.0" />
+      <Button fx:id="SignUpButton" layoutX="1046.0" layoutY="769.0" mnemonicParsing="false" onAction="#storeLoginInfo" prefHeight="103.0" prefWidth="227.0" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

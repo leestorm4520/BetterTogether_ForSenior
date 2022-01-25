@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <Button fx:id="createPost" layoutX="210.0" layoutY="113.0" mnemonicParsing="false" text="Create A New Post" />
+      <Button fx:id="reactPost" layoutX="203.0" layoutY="194.0" mnemonicParsing="false" text="View and React Posts" />
+      <Line endX="100.0" layoutX="263.0" layoutY="168.0" startX="-100.0" />
+      <Label fx:id="introUser" layoutX="27.0" layoutY="23.0" />
+      <Button layoutX="486.0" layoutY="333.0" mnemonicParsing="false" onAction="#logOut" text="Log Out" />
+   </children>
+</AnchorPane>

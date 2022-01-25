@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" prefHeight="354.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label layoutX="95.0" layoutY="14.0" text="Welcome to WeShare!" />
+      <TextField fx:id="userID" layoutX="81.0" layoutY="120.0" promptText="User ID" />
+      <TextField fx:id="password" layoutX="81.0" layoutY="157.0" promptText="Password" />
+      <Separator layoutX="117.0" layoutY="213.0" prefHeight="55.0" prefWidth="79.0" />
+      <Button fx:id="signIn" layoutX="129.0" layoutY="193.0" mnemonicParsing="false" text="Sign In" />
+      <Button layoutX="103.0" layoutY="255.0" mnemonicParsing="false" onAction="#forgetPassword" text="Forget Password?" />
+      <Line endX="100.0" layoutX="162.0" layoutY="300.0" startX="-100.0" />
+      <Button layoutX="73.0" layoutY="313.0" mnemonicParsing="false" onAction="#signUp" text="Create A New WeShare Account" />
+   </children>
+</AnchorPane>

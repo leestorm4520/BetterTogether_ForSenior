@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="427.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreatePostController">
+   <children>
+      <Label fx:id="introUser" layoutX="20.0" layoutY="22.0" />
+      <HTMLEditor fx:id="writePost" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="14.0" layoutY="39.0" prefHeight="249.0" prefWidth="615.0" />
+      <Button layoutX="20.0" layoutY="307.0" mnemonicParsing="false" onAction="#addPost" text="Post" />
+      <Button layoutX="577.0" layoutY="364.0" mnemonicParsing="false" onAction="#homeMenu" text="Home" />
+   </children>
+</AnchorPane>
